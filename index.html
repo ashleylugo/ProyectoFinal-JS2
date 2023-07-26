@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap Styles-->
+    <link rel="stylesheet" href="./css/bootstrap.css"/>
+
+    <!--Custom Styles-->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+
+<!--MENU HAMBURGUESA DE BOOTSTRAP-->
+<div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">Formulario</a>
+              <a class="nav-link" href="./clases.html">Clases</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+<!--FORMUALRIO-->
+<main class="contenedor-prueba"> 
+  <h2>GYMFIT<br>TU MEJOR VERSION TE ESPERA</h2>
+  <h1>Conseguí tu pase de Prueba Gratis</h1> 
+  <i class='bx bx-down-arrow-alt'></i>
+</main>
+
+<div class="contenedor-formulario">
+
+  <h2>Contactanos</h2>
+
+<form id="form-registrar"> 
+
+<div>
+  <input type="text" id="nombre" placeholder="Nombre">
+  <input type="text" id="telefono" placeholder="Telefono">
+ </div>
+
+ <div>
+  <input type="email" id="email" placeholder="Tu e-mail">
+  <input type="text" id="sede" placeholder="Sede"><br>
+</div> 
+
+<div>
+  <input type="text" id="mensaje" placeholder="Escribe tu mensaje...">
+</div>
+
+<div>
+  <button type= "submit" class="btn" id="boton1">ENVIAR</button>
+  <button type="reset" class="btn" id="boton2">CANCELAR</button>
+</div>
+
+</form> 
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
+<script src="./formulario.js"></script>
+<!-- <script src="./js/bootstrap.bundle.js"></script> -->
+</body>
+</html>

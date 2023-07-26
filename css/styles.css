@@ -1,0 +1,302 @@
+/*ESTILOS DEL NAV*/
+nav {
+  display: flex;
+}
+nav .container-fluid {
+  background: yellowgreen;
+  display: flex;
+  align-items: end;
+}
+nav .navbar-nav a {
+  color: white;
+  font-size: 20px;
+}
+
+.contenedor-prueba h2 {
+    text-align: center;
+    font-family: "michroma";
+    color: yellowgreen;
+    font-size: 30px;
+    margin-top: 150px;
+  }
+  .contenedor-prueba h1 {
+    font-family: "michroma";
+    color: yellowgreen;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    padding: 70px;
+
+  }
+  .contenedor-formulario #form-registrar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    
+  }
+
+  .contenedor-formulario #nombre{
+    width: 45%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    transition: 1s;
+  }
+
+  .contenedor-formulario #telefono{
+    width: 45%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    transition: 1s;
+  }
+
+  .contenedor-formulario #email{
+    width: 45%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    transition: 1s;
+  }
+
+  .contenedor-formulario #sede{
+    width: 45%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    transition: 1s;
+  }
+
+  .contenedor-formulario #mensaje{
+    width: 90%;
+    height: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 200px;
+    border: 3px solid;
+    transition: 1s;
+  }
+
+  .contenedor-formulario .btn {
+    margin-top: 20px;
+    margin-right: 45px;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid;
+    background-color: white;
+    transition: 1s;
+  }
+
+  #nombre:hover{
+    background-color: yellowgreen;
+  }
+
+  #telefono:hover{
+    background-color: yellowgreen;
+  }
+
+  #email:hover{
+    background-color: yellowgreen;
+  }
+
+  #sede:hover{
+    background-color: yellowgreen;
+  }
+
+  #mensaje:hover{
+    background-color: yellowgreen;
+  }
+
+  .btn:hover{
+    background-color: yellowgreen;
+  }
+
+  .contenedor-formulario #btn {
+    margin-top: 20px;
+    width: 45%;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid;
+    background-color: white;
+    transition: 1s;
+  }
+
+.contenedor-formulario #btn2 {
+    margin-top: 20px;
+    width: 45%;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid;
+    background-color: white;
+    transition: 1s;
+  }
+
+/*ESTILOS DE CLASES.HTML*/
+
+.cards-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+}
+.cards-container .card {
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid rgb(3, 3, 3);
+  border-radius: 8px;
+}
+.cards-container .card-img {
+  position: relative;
+  width: 100%;
+}
+.cards-container img {
+  width: 100%;
+}
+.cards-container .card-titulo h4 {
+  font-size: 22px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 3px;
+  color: white;
+  width: 100%;
+}
+.cards-container #title-zumba {
+  color: black;
+}
+.cards-container .card-content {
+  padding: 10px;
+  text-align: start;
+}
+
+/*PSEUDOCLASES*/
+.cards-container div.card:nth-child(1) {
+  background-color: rgb(188, 233, 121);
+}
+.cards-container div.card:nth-child(2) {
+  background-color: rgb(185, 187, 182);
+}
+.cards-container div.card:nth-child(3) {
+  background-color: rgb(188, 233, 121);
+}
+.cards-container div.card:nth-child(4) {
+  background-color: rgb(185, 187, 182);
+}
+
+/*ESTILOS DEL FOOTER*/
+
+.pie-pagina {
+  background-image: url(../imagenes/fondo-index.jpg);
+  background-position: bottom right;
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  padding: 20px 0px;
+}
+.pie-pagina .lista-sedes h3, .pie-pagina .lista-sedes ul {
+  color: rgb(222, 220, 220);
+}
+.pie-pagina .lista-sedes li {
+  list-style-type: none;
+  font-size: 20px;
+}
+.pie-pagina .lista-contacto {
+  color: rgb(222, 220, 220);
+}
+.pie-pagina .lista-contacto li {
+  list-style-type: none;
+  font-size: 20px;
+}
+.pie-pagina .suscripcion {
+  color: rgb(222, 220, 220);
+  font-size: 20px;
+}
+.pie-pagina .redes {
+  color: rgb(222, 220, 220);
+}
+.pie-pagina .redes ul {
+  list-style-type: none;
+  font-size: 25px;
+}
+.pie-pagina .redes .bxl-instagram {
+  color: white;
+  font-size: 50px;
+}
+.pie-pagina .redes .bxl-facebook-square {
+  color: white;
+  font-size: 50px;
+}
+.pie-pagina .redes .bxl-whatsapp {
+  color: white;
+  font-size: 50px;
+}
+
+#footer {
+  background-color: rgb(103, 102, 102);
+  background-position: bottom right;
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  padding: 20px 0px;
+}
+#footer .lista-sedes h3, #footer .lista-sedes ul {
+  color: rgb(222, 220, 220);
+}
+#footer .lista-sedes li {
+  list-style-type: none;
+  font-size: 20px;
+}
+#footer .lista-contacto {
+  color: rgb(222, 220, 220);
+}
+#footer .lista-contacto li {
+  list-style-type: none;
+  font-size: 20px;
+}
+#footer .suscripcion {
+  color: rgb(222, 220, 220);
+  font-size: 20px;
+}
+#footer .redes {
+  color: rgb(222, 220, 220);
+}
+#footer .redes ul {
+  list-style-type: none;
+  font-size: 25px;
+}
+#footer .redes .bxl-instagram {
+  color: white;
+  font-size: 50px;
+}
+#footer .redes .bxl-facebook-square {
+  color: white;
+  font-size: 50px;
+}
+#footer .redes .bxl-whatsapp {
+  color: white;
+  font-size: 50px;
+}
