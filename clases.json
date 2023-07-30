@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "img/clase1.jpg",
+        "nombre": "Funcional",
+        "dificultad": "Intermedio",
+        "barrio": "Caballito",
+        "horario": "17hs"
+    },
+    {
+        "id": 2,
+        "image": "img/clase2.jpg",
+        "nombre": "Boxeo",
+        "dificultad": "Principiante",
+        "barrio": "Belgrano",
+        "horario": "19hs"
+    },
+    {
+        "id": 3,
+        "image": "img/clase3.jpg",
+        "nombre": "TRX FITNESS",
+        "dificultad": "Intermedio",
+        "barrio": "Belgrano",
+        "horario": "10hs"
+    },
+    {
+        "id": 4,
+        "image": "img/clase4.jpg",
+        "nombre": "Zumba",
+        "dificultad": "Avanzado",
+        "barrio": "Caballito",
+        "horario": "14hs"
+    }   
+]

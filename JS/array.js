@@ -4,6 +4,8 @@ const AVANZADO = 3;
 
 const clases = [];
 
+// localStorage.clear()
+
 clases.push( new Clase ('Funcional', 'Daniel', 'Intermedio', 'Caballito', '17hs'));
 clases.push( new Clase ('Boxeo', 'Manuel', 'Principiante', 'Belgrano', '19hs'));
 clases.push( new Clase ('Zumba', 'Maria', 'Avanzado', 'Caballito', '14hs'));
@@ -54,6 +56,10 @@ const bienvenida = Swal.fire({
         }
     })
   })
+
+  //Almaceno el Array de clases en el localStorage
+
+localStorage.setItem('clases', JSON.stringify(clases));
     
 
 //ANTES, todo lo que esta arriba con sweetlert era este pedazo de codigo, pero lo saqué porque no podia usar Prompt ni alerts//
