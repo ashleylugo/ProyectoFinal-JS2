@@ -1,34 +1,42 @@
 [
     {
-        "id": 1,
-        "image": "img/clase1.jpg",
-        "nombre": "Funcional",
-        "dificultad": "Intermedio",
-        "barrio": "Caballito",
-        "horario": "17hs"
+      "image": "img/clase1.jpg",
+      "nombre": "Funcional",
+      "dificultad": "Intermedio",
+      "barrio": "Caballito",
+      "horario": "17hs",
+      "profe": "Daniel",
+      "id": "functional",
+      "description":"El entrenamiento funcional se basa en realizar ejercicios que se adaptan a los movimientos naturales del cuerpo humano para trabajar de forma global musculos y articulaciones. La intensidad de los ejercicios se adaptara a tus capacidades fisicas"
     },
     {
-        "id": 2,
-        "image": "img/clase2.jpg",
-        "nombre": "Boxeo",
-        "dificultad": "Principiante",
-        "barrio": "Belgrano",
-        "horario": "19hs"
+      "image": "img/clase2.jpg",
+      "nombre": "Boxeo",
+      "dificultad": "Principiante",
+      "barrio": "Belgrano",
+      "horario": "19hs",
+      "profe": "Manuel",
+      "id": "box",
+      "description": "Es un entrenamiento de alta intensidad que combina movimientos de boxeo con ejercicios de fitness funcional y Moai Tai. Utiliza sacos de boxeo y balones medicinales para ayudarte a desarrollar fuerza, agilidad y potencia."
     },
     {
-        "id": 3,
-        "image": "img/clase3.jpg",
-        "nombre": "TRX FITNESS",
-        "dificultad": "Intermedio",
-        "barrio": "Belgrano",
-        "horario": "10hs"
+      "image": "img/clase3.jpg",
+      "nombre": "TRX FITNESS",
+      "dificultad": "Intermedio",
+      "barrio": "Belgrano",
+      "horario": "10hs",
+      "profe": "Maria",
+      "id": "trx"
     },
     {
-        "id": 4,
-        "image": "img/clase4.jpg",
-        "nombre": "Zumba",
-        "dificultad": "Avanzado",
-        "barrio": "Caballito",
-        "horario": "14hs"
-    }   
-]
+      "image": "img/clase4.jpg",
+      "nombre": "Zumba",
+      "dificultad": "Avanzado",
+      "barrio": "Caballito",
+      "horario": "14hs",
+      "profe": "Carlos",
+      "id": "zumba",
+      "description": "Veni a bailar y disfrutar con los mejores profes de zumba de Buenos Aires. Realizaras ejercicios aerobicos y funcionales al ritmo de la musica latina (merengue, samba, reggueton, cumbia y salsa."
+    }
+  ]
+  
